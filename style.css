@@ -260,11 +260,31 @@ footer{
   .animal-cards-container{
     grid-template-columns:1fr;
     gap:20px;
-    padding:0 20px;
+    padding:0 40px;
   }
   .hero-content{
     gap:40px;
     padding:20px;
+  }
+
+  /* Make animal thumbnails square on mobile */
+  .card-floating img{
+    aspect-ratio: 1/1;
+    height: auto;
+  }
+
+  /* Make cards smaller on mobile */
+  .card-floating{
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  /* Make background fill on mobile */
+  .hero-background img{
+    object-fit:cover;
+    object-position:center;
+    min-height:100vh;
+    min-width:100vw;
   }
 }
 
