@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salmon – Coastal Wildlife Ethics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="hero-container" role="main">
+    <header class="hero-fullscreen" aria-labelledby="pageTitle">
+      <div class="hero-background">
+        <img src="media/salmon_bg.jpg" alt="Salmon swimming upstream">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 id="pageTitle">Salmon</h1>
+          <p class="hero-subtitle">How do our choices shape the future of the salmon?</p>
+        </div>
+
+        <div class="hero-nav">
+          <a class="btn" href="#actions" aria-label="Learn more about salmon">Learn More</a>
+          <a class="btn ghost" href="index.html" aria-label="Back to homepage">Home</a>
+        </div>
+      </div>
+
+    </header>
+
+    <div class="container" style="margin-top: 0;">
+      <!-- Quick Facts -->
+      <div class="facts" aria-hidden="false">
+        <div class="fact" role="group" aria-labelledby="fact1">
+          <h4 id="fact1">Habitat</h4>
+          <p>Rivers, streams, and the Pacific Ocean</p>
+        </div>
+        <div class="fact" role="group" aria-labelledby="fact2">
+          <h4 id="fact2">Diet</h4>
+          <p>Zooplankton, insects, small fish</p>
+        </div>
+        <div class="fact" role="group" aria-labelledby="fact3">
+          <h4 id="fact3">Ecosystem Role</h4>
+          <p>Transport nutrients from ocean to forest; support bears, eagles, forests</p>
+        </div>
+      </div>
+
+      <section class="grid" aria-label="Salmon content grid">
+      <article class="main card" aria-labelledby="story">
+        <h3 id="story">A Day in the Ecosystem</h3>
+        <p style="color:var(--muted)">
+          Each year, salmon undertake one of the world's most remarkable migrations, returning from the ocean to their 
+          birthplace in freshwater streams. Their journey brings essential nutrients inland, feeding bears, wolves, 
+          eagles, and even the forests themselves. When salmon thrive, entire ecosystems flourish.
+        </p>
+
+        <div style="height:12px"></div>
+
+        <h3>Ethical Perspectives</h3>
+        <div class="three-col" role="list">
+          <div class="ethic" role="listitem" aria-labelledby="eth1">
+            <h4 id="eth1">Anthropocentrism</h4>
+            <p style="color:var(--muted); margin-top:6px">
+              From a human-centered perspective, salmon are primarily valued for their economic and cultural importance. 
+              Fisheries, commercial markets, and food security shape decisions. This approach may justify hatcheries or 
+              river modifications to maintain human demand, even at ecological cost.
+            </p>
+          </div>
+
+          <div class="ethic" role="listitem" aria-labelledby="eth2">
+            <h4 id="eth2">Ecocentrism</h4>
+            <p style="color:var(--muted); margin-top:6px">
+              Ecocentrism prioritizes the health of the entire watershed. Salmon are seen as a keystone species whose 
+              well-being reflects the overall integrity of rivers, forests, and coastal ecosystems. Protecting salmon 
+              means protecting everything linked to them.
+            </p>
+          </div>
+
+          <div class="ethic" role="listitem" aria-labelledby="eth3">
+            <h4 id="eth3">Indigenous Perspectives</h4>
+            <p style="color:var(--muted); margin-top:6px">
+              Many Indigenous nations consider salmon to be relatives, teachers, and central to cultural identity. 
+              Practices emphasize reciprocity: taking only what is needed, honoring life cycles, and restoring rivers so 
+              salmon can continue their ancestral return. The salmon's value is relational, not merely economic.
+            </p>
+          </div>
+        </div>
+
+        <div style="height:12px"></div>
+
+        <h3>Threats & Human Impact</h3>
+        <ul>
+          <li>Rising river temperatures due to climate change</li>
+          <li>Pollution from industrial and urban development</li>
+          <li>Overfishing reducing population resilience</li>
+          <li>Dams and barriers blocking migration routes</li>
+        </ul>
+
+        <div style="height:12px"></div>
+
+        <h3>Interactive: Quick Flip Facts</h3>
+        <div class="flip-grid">
+          <div class="flip">
+            <div class="flip-inner" role="button" tabindex="0" aria-pressed="false" aria-label="Flip: Salmon migration">
+              <div class="flip-front">
+                <strong>Why do salmon swim upstream?</strong>
+              </div>
+              <div class="flip-back">
+                <div>
+                  <p style="margin:0; font-weight:600">To spawn where they were born</p>
+                  <p style="margin:6px 0 0">Salmon return to their birthplace to lay eggs, completing a cycle that connects ocean and forest ecosystems.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip">
+            <div class="flip-inner" role="button" tabindex="0" aria-pressed="false" aria-label="Flip: Ecosystem importance">
+              <div class="flip-front">
+                <strong>How do salmon feed forests?</strong>
+              </div>
+              <div class="flip-back">
+                <div>
+                  <p style="margin:0; font-weight:600">Marine nutrients from ocean to land</p>
+                  <p style="margin:6px 0 0">Bears and other animals carry salmon into forests, enriching soil with ocean-derived nitrogen.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </article>
+
+      <aside class="aside">
+        <div class="card" aria-labelledby="actionsTitle">
+          <h3 id="actionsTitle">What You Can Do</h3>
+          <p style="color:var(--muted)">Small actions can help protect salmon and the ecosystems they support.</p>
+          <ul>
+            <li>Support sustainable seafood programs</li>
+            <li>Learn about and respect Indigenous salmon stewardship practices</li>
+            <li>Reduce plastic and chemical runoff</li>
+            <li>Advocate for habitat restoration and dam removal</li>
+          </ul>
+          <div style="height:8px"></div>
+        </div>
+
+        <div class="card" aria-labelledby="quizTitle">
+          <h3 id="quizTitle">Mini Quiz</h3>
+          <div class="quiz" id="quiz">
+            <p style="margin:0 0 6px">What happens when salmon return from the ocean to spawn?</p>
+            <button data-answer="a">1) They bring marine nutrients to forests and streams</button>
+            <button data-answer="b">2) They only benefit commercial fisheries</button>
+            <button data-answer="c">3) They harm freshwater ecosystems</button>
+            <div id="quizResult" style="color:var(--muted); margin-top:8px;"></div>
+          </div>
+        </div>
+        
+        <div class="card" aria-labelledby="ackTitle">
+          <h3 id="ackTitle">Acknowledgements & Sources</h3>
+          <p style="color:var(--muted); margin:0 0 8px;">This page draws on local conservation research, Indigenous teachings, and wildlife management best practices. Replace with your project's sources and local acknowledgements.</p>
+          <p style="margin:0;"><small>Land acknowledgement: We acknowledge the unceded territories of the Musqueam, Squamish, and Tsleil-Waututh Nations.</small></p>
+        </div>
+      </aside>
+
+      <!-- actions anchor target -->
+      <div id="actions" style="grid-column:1 / -1; margin-top:12px;"></div>
+      </section>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
